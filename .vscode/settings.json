@@ -1,0 +1,29 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "__functional_base": "cpp",
+        "array": "cpp",
+        "istream": "cpp",
+        "locale": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "random": "cpp",
+        "typeinfo": "cpp",
+        "chrono": "cpp",
+        "__bit_reference": "cpp",
+        "algorithm": "cpp",
+        "atomic": "cpp",
+        "bitset": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "limits": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "vector": "cpp"
+    },
+    "[cpp]":{
+        "editor.formatOnSave": false
+    }
+}
