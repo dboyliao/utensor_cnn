@@ -26,6 +26,9 @@
         "iostream": "cpp"
     },
     "[cpp]":{
-        "editor.formatOnSave": false
+        "editor.formatOnSave": false,
+        "C_Cpp.default.includePath": [
+            "${workspaceFolder}/uTensor"
+        ]
     }
 }
