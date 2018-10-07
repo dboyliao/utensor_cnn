@@ -1,11 +1,11 @@
+#include "models/cifar10_cnn.hpp"
+#include "uTensor/util/uTensor_util.hpp"
+#include "uTensor/loaders/tensorIdxImporter.hpp"
 #include <stdio.h>
 #include <FATFileSystem.h>
 #include <SDBlockDevice.h>
 #include <mbed.h>
 #include <string>
-#include "models/cifar10_cnn.hpp"
-#include "uTensor/loaders/tensorIdxImporter.hpp"
-#include "uTensor/util/uTensor_util.hpp"
 
 using namespace std;
 

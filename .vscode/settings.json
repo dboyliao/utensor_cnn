@@ -21,7 +21,9 @@
         "ratio": "cpp",
         "system_error": "cpp",
         "type_traits": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "iostream": "cpp"
     },
     "[cpp]":{
         "editor.formatOnSave": false

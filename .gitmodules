@@ -1,0 +1,3 @@
+[submodule "submodules/utensor_cgen"]
+	path = submodules/utensor_cgen
+	url = https://github.com/uTensor/utensor_cgen.git
