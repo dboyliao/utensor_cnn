@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
             }
         }
         printf("\n");
-        printf("pred label: %lu, expecting %i\n",
+        printf("pred label: %i, expecting %i\n",
                pred_label,
                label);
     }
