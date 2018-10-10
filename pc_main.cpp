@@ -1,6 +1,7 @@
 #include "models/cifar10_cnn.hpp"
 #include "uTensor/util/uTensor_util.hpp"
 #include "uTensor/loaders/tensorIdxImporter.hpp"
+#include <unistd.h>
 #include <stdio.h>
 #include <string>
 
@@ -13,7 +14,7 @@ int main(int argc, char *argv[])
     for (int label = 0; label < 10; ++label)
     {
         Context ctx;
-        sprintf(buff, "./imgs/img_%i.idx", label);
+        sprintf(buff, "./imgs/%i.idx", label);
         string img_path(buff);
         printf("processing: %s\n", buff);
         Tensor *in_tensor = t_import.float_import(img_path);
@@ -37,6 +38,7 @@ int main(int argc, char *argv[])
         printf("pred label: %i, expecting %i\n",
                pred_label,
                label);
+        sleep(2);
     }
     return 0;
 }

@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     for (int label = 0; label < 10; ++label)
     {
         Context ctx;
-        sprintf(buff, "/fs/imgs/img_%i.idx", label);
+        sprintf(buff, "/fs/imgs/%i.idx", label);
         string img_path(buff);
         printf("processing: %s\n", buff);
         Tensor *in_tensor = t_import.float_import(img_path);

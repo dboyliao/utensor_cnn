@@ -23,7 +23,7 @@ compile-mbed: model
 models/cifar10_cnn.cpp: cifar10_cnn.pb
 	utensor-cli convert cifar10_cnn.pb --output-nodes=fully_connect_2/logits --transform-methods=-inline
 
-pc_main: $(HEADER_FILE) $(SRC_FILE)
+pc_main: $(HEADER_FILE) $(SRC_FILE) pc_main.cpp
 	$(CXX) $(SRC_FILE) models/*.cpp pc_main.cpp -o pc_main $(INCLUDE) $(FLAGS)
 
 debug: model-pc pc_main
